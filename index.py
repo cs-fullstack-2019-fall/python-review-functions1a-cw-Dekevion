@@ -19,6 +19,7 @@ printNumber()
 
 def checkPassword(a,b):
     if a == b:
+        # !! : Return true if they are equal and false if they are not equal
         print("true")
     else: print('false')
 
@@ -40,7 +41,7 @@ checkPassword('abc','blah blah')
 #
 def oddEven ():
     var_a = int(input('Enter number'))
-    if var_a % 2 > 0:
+    if var_a % 2 > 0: # !! : if var_a % 2 != 0
         print('this is an odd number')
     else: print('this is even')
 
@@ -64,9 +65,5 @@ def func2():
 
 def func3(greeting):
      print(greeting + ' world')
-
-# def func3(greeting):
-#
-#     greeting = 'world'
 
 main()
